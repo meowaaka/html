@@ -98,3 +98,58 @@ footer {
   margin-top: 40px;
   border-top: 3px solid #b6568d;
 }
+
+@media (max-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+  }
+
+  nav a {
+    font-size: 14px;
+    margin: 5px;
+  }
+
+  .catalog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .card {
+    width: 90%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .card h3 {
+    font-size: 1.1em;
+  }
+
+  .card p {
+    font-size: 0.95em;
+  }
+
+  .card .btn {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 0.95em;
+    padding: 10px 15px;
+  }
+}
+

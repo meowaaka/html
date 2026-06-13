@@ -19,8 +19,8 @@ nav {
 header {
   text-align: center;
   padding: 40px 20px;
-  background: linear-gradient(to right, #ffccd4, #f8a1c4);
-  color: #5a2a45;
+  background: linear-gradient(to right, #ffccd4, lightpink);
+  color: #794062;
 }
 
 header h1 {
@@ -96,4 +96,53 @@ footer {
   color: #333;
   margin-top: 40px;
   border-top: 3px solid #b6568d;
+}
+
+@media (max-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+  }
+
+  nav a {
+    font-size: 14px;
+    margin: 5px;
+  }
+
+  .details {
+    width: 95%;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .details h1 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .details-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .details p {
+    font-size: 15px;
+    line-height: 1.4;
+    text-align: center;
+  }
+
+  .details .btn {
+    display: block;
+    width: 90%;
+    margin: 15px auto;
+    text-align: center;
+    font-size: 0.95em;
+    padding: 10px 15px;
+  }
 }
