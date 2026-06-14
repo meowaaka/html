@@ -24,12 +24,13 @@ header {
 }
 
 header h1 {
-  font-size: 2.5em;
-  margin-bottom: 10px;
+  font-size: 50px;
+  margin-bottom: 5px;
 }
 
 header p {
-  font-size: 1.2em;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .details {
