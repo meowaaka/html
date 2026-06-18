@@ -2,9 +2,59 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>$Title$</title>
+  <link rel="stylesheet" href="../styles/cart.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <title>Title</title>
 </head>
 <body>
-$END$
+<nav>
+  <a href="../index.html">Головна</a>
+  <a href="catalog.html">Каталог</a>
+  <a href="categories.html">Категорії</a>
+  <a href="cart.html">Корзина</a>
+  <a href="contacts.html">Контакти</a>
+</nav>
+
+<main class="cart">
+  <h1>Моя корзина</h1>
+
+  <table>
+    <tr>
+      <th>Товар</th>
+      <th>Кількість</th>
+      <th>Ціна</th>
+    </tr>
+    <tr><td>Soft Charm</td><td><input type="number" name="soft_charm_qty" value="1" min="0"></td><td>350₴</td></tr>
+    <tr><td>Floral Charm</td><td><input type="number" name="floral_charm_qty" value="0" min="0"></td><td>400₴</td></tr>
+    <tr><td>Scarlet Bow</td><td><input type="number" name="scarlet_bow_qty" value="0" min="0"></td><td>420₴</td></tr>
+    <tr><td>Pink Grace</td><td><input type="number" name="pink_grace_qty" value="0" min="0"></td><td>380₴</td></tr>
+    <tr><td>Pastel Dream</td><td><input type="number" name="pastel_dream_qty" value="0" min="0"></td><td>360₴</td></tr>
+    <tr><td>Lavender Bloom</td><td><input type="number" name="lavender_bloom_qty" value="0" min="0"></td><td>410₴</td></tr>
+    <tr><td>Sweet Petal</td><td><input type="number" name="sweet_petal_qty" value="0" min="0"></td><td>370₴</td></tr>
+    <tr><td>Soft Elegance</td><td><input type="number" name="soft_elegance_qty" value="0" min="0"></td><td>390₴</td></tr>
+    <tr><td>Lilac Mist</td><td><input type="number" name="lilac_mist_qty" value="0" min="0"></td><td>400₴</td></tr>
+    <tr><td>Rosy Charm</td><td><input type="number" name="rosy_charm_qty" value="0" min="0"></td><td>380₴</td></tr>
+    <tr><td>Steel Lock</td><td><input type="number" name="steel_lock_qty" value="0" min="0"></td><td>350₴</td></tr>
+    <tr><td>Mint Light</td><td><input type="number" name="mint_light_qty" value="0" min="0"></td><td>370₴</td></tr>
+    <tr><td>Pink Ribbon</td><td><input type="number" name="pink_ribbon_qty" value="0" min="0"></td><td>390₴</td></tr>
+    <tr><td>Frill Rose</td><td><input type="number" name="frill_rose_qty" value="0" min="0"></td><td>400₴</td></tr>
+    <tr><td>Anime Smile</td><td><input type="number" name="anime_smile_qty" value="0" min="0"></td><td>360₴</td></tr>
+    <tr><td>Blue Bloom</td><td><input type="number" name="blue_bloom_qty" value="0" min="0"></td><td>350₴</td></tr>
+  </table>
+
+  <h2>Доставка</h2>
+  <form action="order.php" method="post">
+    <label>Ім’я:<input type="text" name="name" required></label>
+    <label>Адреса:<input type="text" name="address" required></label>
+    <label>Телефон:<input type="tel" name="phone" required></label>
+    <button type="submit">Оформити замовлення</button>
+  </form>
+</main>
+
+<footer>
+  <p>19.06.2026</p>
+  <p>Виконувала - Дубровіна Єва / КНК-12</p>
+  <p>(. ❛ ᴗ ❛.)</p>
+</footer>
 </body>
 </html>
